@@ -48,8 +48,8 @@ Lab 10: Working with Docker Hub (Registry) <br/>
     Password: (your-dockerhub-password) <br/>
   
  * Push the images to docker hub: <br/> 
-   $ docker push <your-dockerhub-username>/voting-app:1.0 <br/>
-   $ docker push <your-dockerhub-username>/voting-app:latest  <br/>
+   $ docker push <<-your-dockerhub-username->>/voting-app:1.0 <br/>
+   $ docker push <<-your-dockerhub-username->>/voting-app:latest  <br/>
   
 * See the pushed images in the docker hub page : <br/>
   https://hub.docker.com/r/(your-dockerhub-username)/voting-app/tags/  <br/>
