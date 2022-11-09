@@ -38,8 +38,8 @@ Lab 10: Working with Docker Hub (Registry) <br/>
   $ docker rm -f voting-app
   
 * Let's create two tags for the image we want to push to docker hub: <br/>
-  $ docker tag voting-app:latest <your-dockerhub-username>/voting-app:1.0
-  $ docker tag voting-app:latest <your-dockerhub-username>/voting-app:latest
+  $ docker tag voting-app:latest <<-your-dockerhub-username->>/voting-app:1.0 <br/>
+  $ docker tag voting-app:latest <<-your-dockerhub-username->>/voting-app:latest <br/>
   
 * Login to docker hub from the terminal: <br/>
   $ docker login
