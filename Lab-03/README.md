@@ -17,6 +17,8 @@ Lab 03: Running commands inside the container
 * Show the stopped containers as well: <br/>
   $ docker ps -a
 * If the container was stoped, delete it and run a new container using: <br/>
+  $ docker rm app <br/>
+  $ docker run -d -p 3000:3000 --name app selaworkshops/npm-static-app:latest <br/>
 * Execute the terminal (interactive) inside the container using:<br/>
   $ docker exec -it app /bin/bash
 * Inspect the container's filesystem: ("#" sign here indicates that you are inside the container) <br/>
